@@ -22,7 +22,7 @@
         <module>ecmc-application</module>
         <module>ecmc-job</module>
         <module>ecmc-biz</module>
-        <module>ecmc-discord</module>
+<!--        <module>ecmc-discord</module>-->
     </modules>
 
     <properties>
@@ -30,8 +30,8 @@
         <java.version>17</java.version>
         <project.encoding>UTF-8</project.encoding>
         <ecmc.version>0.0.1</ecmc.version>
-        <mp.version>3.5.2</mp.version>
-        <hutool.version>5.8.6</hutool.version>
+        <mp.version>3.5.7</mp.version>
+        <hutool.version>5.8.26</hutool.version>
         <sa-token.version>1.33.0</sa-token.version>
         <fastjson.version>2.0.12</fastjson.version>
         <poi.version>4.1.2</poi.version>
@@ -42,7 +42,7 @@
         <guava.version>31.1-jre</guava.version>
         <powerjob.worker.starter.version>4.2.0</powerjob.worker.starter.version>
         <javax.mail.version>1.6.2</javax.mail.version>
-        <javacord.version>3.7.0</javacord.version>
+        <javacord.version>3.8.0</javacord.version>
         <forest-spring-boot-starter.version>1.5.28</forest-spring-boot-starter.version>
         <pinyin4j.version>2.5.0</pinyin4j.version>
         <kotlinx.version>1.6.4</kotlinx.version>
@@ -157,7 +157,7 @@
             <!-- MyBatis Plus -->
             <dependency>
                 <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
                 <version>${mp.version}</version>
             </dependency>
             <!-- Project Framework -->
