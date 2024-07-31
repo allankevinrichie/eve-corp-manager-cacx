@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.6</version>
+        <version>3.1.4</version>
         <relativePath/>
     </parent>
 
@@ -46,6 +46,7 @@
         <forest-spring-boot-starter.version>1.5.28</forest-spring-boot-starter.version>
         <pinyin4j.version>2.5.0</pinyin4j.version>
         <kotlinx.version>1.6.4</kotlinx.version>
+        <servlet.version>4.1.0</servlet.version>
     </properties>
 
     <dependencyManagement>
